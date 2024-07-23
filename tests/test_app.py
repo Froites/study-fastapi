@@ -16,9 +16,9 @@ def test_create_user(client):
 
     # Validar User Public
     assert response.json() == {
-            'username': 'Joao',
-            'email': 'Joao@gmail.com',
-            'id': 1,
+        'username': 'Joao',
+        'email': 'Joao@gmail.com',
+        'id': 1,
     }
 
 
