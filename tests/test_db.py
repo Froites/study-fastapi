@@ -1,5 +1,6 @@
-from fast_studies.models.models import User
 from sqlalchemy import select
+
+from fast_studies.models.models import User
 
 
 def test_create_user(session):
